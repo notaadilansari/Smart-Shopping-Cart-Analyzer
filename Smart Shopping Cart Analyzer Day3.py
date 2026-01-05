@@ -42,7 +42,7 @@ if payment=="Card" and final_price>30000:
 	discount+=5
 	final_price = final_price-((final_price*5)/100)
 #printing output
-print("PURCHASE SUMMARY")
+print("\n========== PURCHASE SUMMARY ==========")
 print(f"User : {user_name}")
 print(f"Products : {name_list}")
 print(f"Categories : {category_set}")
