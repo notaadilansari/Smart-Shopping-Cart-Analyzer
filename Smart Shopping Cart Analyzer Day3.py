@@ -47,7 +47,7 @@ print(f"User : {user_name}")
 print(f"Products : {name_list}")
 print(f"Categories : {category_set}")
 print(f"Cart Total : {value}")
-print(f"Discount : {discount}")
+print(f"Discount% : {discount}")
 print(f"Final Price : {final_price}")
 if payment=="COD" and category_set==("Electronics"):
 	print(" Status -Order not allowed")
